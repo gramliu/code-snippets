@@ -24,7 +24,7 @@ segtree* make_segtree(int start, int end) {
     tree->start = start;
     tree->end = end;
     if (start != end) {
-        int mid = (start + end) / 2;
+        int mid = start + (end - start) / 2;
         tree->left = make_segtree(start, mid);
         tree->right = make_segtree(mid+1, end);
     }
