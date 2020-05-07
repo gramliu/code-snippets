@@ -1,6 +1,7 @@
 # Code Snippets
 
 A repository of small code snippets for various algorithms and data structures in C++
+Contracts added to support safety (WIP). Contracts taken from CMU CS 15-122
 
 ## Current contents
 * Binary Search Tree
